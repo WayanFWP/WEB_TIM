@@ -2,7 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+      id="viewportMeta"
+    />
     <meta
       name="Abinara-1"
       content="Abinara-1 ITS Robotics Team that conduct research and competition for legged autonomous robot."
@@ -30,21 +35,21 @@
     ></script>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  
-  <body>
+
+  <body cz-shortcut-listen="true">
     <header
-      class="absolute top-o z[101] w-full bg-gradient-to-b from-grey-500 duration-300 ease-in-out"
+      class="relative top-o z-[101] w-full bg-gradient-to-b from-grey-500 via-grey/50 via-[60%] to-transparent"
     >
       <div
         class="flex h-[80px] flwx-row item-center justify-between gap-5 px-6 py-6 max-[1039px]:px-10 md:h-[112px] md:px-16 md:py-8 min-[1100px]:px-24"
       >
-        <a class="cursor-pointer1" href="#">
-          <figure class="w-[150px] md:w-[257px]">
+        <a class="cursor-pointer1" href="/">
+          <figure class="w-[150px] md:w-[50px]">
             <img
-              alt="TEDxITS Logo"
+              alt="Abinara-1 Icon"
               loading="lazy"
-              width="45.6"
-              height="56.67"
+              width="45"
+              height="60.67"
               decoding="async"
               data-nimg="1"
               class=""
@@ -53,9 +58,9 @@
             />
           </figure>
         </a>
-        <div class="hidden items-center lg:flex lg:gap-20 min-[1400px]:gap-36">
+        <div class="items-center lg:flex lg:gap-20 min-[1400px]:gap-36">
           <ul
-            class="z-[100] items-center font-arimo font-bold text-flatwhite-400 *:underline *:decoration-dotted *:underline-offset-8 lg:flex lg:gap-5 xl:gap-[60px]"
+            class="z-[100] items-center font-arimo font-bold text-white-400 *:underline *:decoration-dotted *:underline-offset-8 lg:flex lg:gap-5 xl:gap-[60px]"
           >
             <a
               class="cursor-pointer1 active:text-maindeepred-500 active:decoration-maindeepred-500"
@@ -64,72 +69,67 @@
                 Home
               </li></a
             >
-            <li class="relative">
-              <button
-                id="headlessui-menu-button-:Rkpeuda:"
-                type="button"
-                aria-haspopup="menu"
-                aria-expanded="false"
-                data-headlessui-state=""
-              >
-                <li
-                  class="font-arimo md:text-[16px] md:leading-[24px] flex items-center gap-2 underline 
-                  decoration-dotted underline-offset-8 active:text-maindeepred-500 active:decoration-maindeepred-500"
-                >
-                  About
-                </li>
-              </button>
-            </li>
-            <li class="relative">
-              <button
-                id="headlessui-menu-button-:Rmpeuda:"
-                type="button"
-                aria-haspopup="menu"
-                aria-expanded="false"
-                data-headlessui-state=""
-              >
-                <li
-                  class="font-arimo md:text-[16px] md:leading-[24px] flex items-center gap-2 underline 
-                  decoration-dotted underline-offset-8 active:text-maindeepred-500 active:decoration-maindeepred-500"
-                >
-                  Events
-                </li>
-              </button>
-            </li>
-            <li class="relative">
-              <button
-                id="headlessui-menu-button-:Ropeuda:"
-                type="button"
-                aria-haspopup="menu"
-                aria-expanded="false"
-                data-headlessui-state=""
-              >
-                <li
-                  class="font-arimo md:text-[16px] md:leading-[24px] flex items-center gap-2 text-nowrap underline 
-                  decoration-dotted underline-offset-8 active:text-maindeepred-500 active:decoration-maindeepred-500"
-                >
-                  Past Events
-                </li>
-              </button>
-            </li>
             <a
               class="cursor-pointer1 active:text-maindeepred-500 active:decoration-maindeepred-500"
-              href="/coming-soon"
+              href="/"
+              ><li class="font-arimo md:text-[16px] md:leading-[24px]">
+                About
+              </li></a
+            >
+            <a
+              class="cursor-pointer1 active:text-maindeepred-500 active:decoration-maindeepred-500"
+              href="/"
+              ><li class="font-arimo md:text-[16px] md:leading-[24px]">
+                Team
+              </li></a
+            >
+            <a
+              class="cursor-pointer1 active:text-maindeepred-500 active:decoration-maindeepred-500"
+              href="/"
+              ><li class="font-arimo md:text-[16px] md:leading-[24px]">
+                Gallery
+              </li></a
+            >
+            <a
+              class="cursor-pointer1 active:text-maindeepred-500 active:decoration-maindeepred-500"
+              href="/"
               ><li class="font-arimo md:text-[16px] md:leading-[24px]">
                 Merch
               </li></a
             >
           </ul>
-          <div class="flex items-center gap-5">
-          </div>
+          <div class="flex items-center gap-5"></div>
         </div>
       </div>
     </header>
+    <section class="relative">
+      <div
+        class="relative z-[-10000] flex h-[210px] flex-col items-center justify-center overflow-hidden bg-transparent md:h-[410px]"
+      >
+        <p
+          class="font-arimo md:text-[18px] md:leading-[24px] text-center font-bold text-flatwhite-500"
+        >
+          Through the
+        </p>
+        <p
+          class="font-asgard md:text-[48px] md:leading-[48px] mt-2 text-center text-flatwhite-500"
+        >
+          ashes of fire
+        </p>
+        <p
+          class="font-arimo md:text-[20px] md:leading-[24px] text-balance px-10 text-center text-sm text-flatwhite-500 md:mx-auto md:max-w-[500px]"
+        >
+          we invites you to fly on a mesmerizing journey in creating big
+          history.
+        </p>
+      </div>
+    </section>
+
     <footer class="z-[100] w-full snap-end bg-gradient-to-t from-gray-500">
       <div
         class="flex flex-col-reverse justify-between gap-12 px-6 py-12 md:px-24 md:py-8 lg:flex-row ls:item-center lg:gap-[135px]"
       >
-        <div class="flex flex-col gap-6">
+        <div class="flex flex-col gap-3">
           <figure class="h-auto w-[124px] lg:w-[249px]">
             <img
               src="/src/img/footer_purpose/ITS_icon.png"
@@ -148,12 +148,88 @@
             <br />
             Website by Abinara-1 ITS
           </p>
+          <div class="flex gap-2 text-white-500 md:gap-6">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://tedxits.org/links/LinkedIn"
+              class="cursor-pointer1"
+            >
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                class="flex-none text-xl md:text-2xl"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M417.2 64H96.8C79.3 64 64 76.6 64 93.9V415c0 17.4 15.3 32.9 32.8 32.9h320.3c17.6 0 
+                    30.8-15.6 30.8-32.9V93.9C448 76.6 434.7 64 417.2 64zM183 384h-55V213h55v171zm-25.6-197h-.4c-17.6 0-29-13.1-29-29.5 0-16.7 11.7-29.5 
+                    29.7-29.5s29 12.7 29.4 29.5c0 16.4-11.4 29.5-29.7 29.5zM384 384h-55v-93.5c0-22.4-8-37.7-27.9-37.7-15.2 0-24.2 10.3-28.2 20.3-1.5 
+                    3.6-1.9 8.5-1.9 13.5V384h-55V213h55v23.8c8-11.4 20.5-27.8 49.6-27.8 36.1 0 63.4 23.8 63.4 75.1V384z"
+                ></path>
+              </svg>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.instagram.com/abinara.1/"
+              class="cursor-pointer1"
+            >
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 1024 1024"
+                class="flex-none text-xl md:text-2xl"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M512 378.7c-73.4 0-133.3 59.9-133.3 133.3S438.6 645.3 512 645.3 645.3 585.4 645.3 512 585.4 378.7 512 
+                    378.7zM911.8 512c0-55.2.5-109.9-2.6-165-3.1-64-17.7-120.8-64.5-167.6-46.9-46.9-103.6-61.4-167.6-64.5-55.2-3.1-109.9-2.6-165-2.6-55.2 
+                    0-109.9-.5-165 2.6-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 
+                    120.8 64.5 167.6 46.9 46.9 103.6 61.4 167.6 64.5 55.2 3.1 109.9 2.6 165 2.6 55.2 0 109.9.5 165-2.6 64-3.1 120.8-17.7 167.6-64.5 46.9-46.9 
+                    61.4-103.6 64.5-167.6 3.2-55.1 2.6-109.8 2.6-165zM512 717.1c-113.5 0-205.1-91.6-205.1-205.1S398.5 306.9 512 306.9 717.1 398.5 717.1 512 625.5 
+                    717.1 512 717.1zm213.5-370.7c-26.5 0-47.9-21.4-47.9-47.9s21.4-47.9 47.9-47.9 47.9 21.4 47.9 47.9a47.84 47.84 0 0 1-47.9 47.9z"
+                ></path>
+              </svg>
+            </a>
+            <a target="_blank" href=""></a>
+            <a target="_blank" href=""></a>
+            <a target="_blank" href=""></a>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-between gap-6 lg:gap-[135px]">
           <div>
-            <a target="_blank" href=""></a>
-            <a target="_blank" href=""></a>
-            <a target="_blank" href=""></a>
-            <a target="_blank" href=""></a>
-            <a target="_blank" href=""></a>
+            <p
+              class="font-arimo md:text-[18px] md:leading-[56px] max-w-[500px] text-xs uppercase text-white-500"
+            >
+              Are you ready for the big change of century?
+            </p>
+          </div>
+          <div class="flex items-center justify-center">
+            <a
+              class="cursor-pointer1 cursor-pointer transition-opacity hover:opacity-70 max-[374px]:p-2 flex h-[48px] w-[149px] items-center justify-center text-flatwhite-500"
+              style="
+                background-image: url(/images/coming-soon/bg-button-red.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+              "
+              href="/coming-soon"
+              ><div class="flex items-center gap-3">
+                <p
+                  class="font-arimo md:text-[16px] md:leading-[24px] text-nowrap max-[374px]:text-[10px]"
+                >
+                  Coming Soon
+                </p>
+              </div></a
+            >
           </div>
         </div>
       </div>
